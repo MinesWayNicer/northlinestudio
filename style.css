@@ -152,3 +152,25 @@ footer {
     color: #666;
     font-style: normal;
 }
+.navbar {
+    background-color: seagreen;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    transform: scale(1.05);
+}
