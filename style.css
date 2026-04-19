@@ -80,6 +80,14 @@ section {
     margin-bottom: 40px;
 }
 
+.button-row {
+    text-align: center;
+}
+
+.button-row .nav-button {
+    margin: 10px 8px;
+}
+
 .hero {
     display: grid;
     grid-template-columns: 1fr;
