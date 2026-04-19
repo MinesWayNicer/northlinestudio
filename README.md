@@ -45,3 +45,43 @@ Then open `http://127.0.0.1:8000` in your browser.
 
 The site is static and can be deployed to any web host, CDN, or platform like GitHub Pages, Netlify, or Vercel. No build process required.
 
+## Customization Guide
+
+- **Editing Content:** Update text, links, and images directly in the HTML files. For example, change studio description in `index.html`, add real project images in `projects.html`, or update contact info in `contact.html`.
+- **Adding Pages:** Create new HTML files following the existing structure (include nav, header, footer). Add links to the navbar and footer nav in all files.
+- **Styling Changes:** Modify `style.css` for colors, fonts, or layouts. The color palette is based on #7A806F (dark green) with accents in #90978A and #4f9a70.
+- **Images:** Replace placeholder images in `images/` with your own assets. Maintain aspect ratios for best display (banner: ~800x220, logos: square/circle as needed).
+- **JavaScript:** Extend `script.js` for new interactions. Currently handles back-to-top and newsletter placeholder.
+
+## Branding Notes
+
+- **Color Palette:** Primary #7A806F (buttons, links), Secondary #90978A (headings), Accent #4f9a70 (highlights).
+- **Fonts:** Uses browser defaults; consider adding Google Fonts like 'Inter' for body and 'Playfair Display' for headings if desired.
+- **Logo Usage:** Square logo floats in top-left, circle logo used on socials page. Banner appears on all pages.
+- **Tone:** Professional yet creative; keep copy concise and confident.
+
+## Future Improvements
+
+- Integrate a real newsletter service (e.g., Mailchimp) for the signup form.
+- Add more social platforms to `socials.html` with icons.
+- Implement a lightbox or modal for project gallery images.
+- Add an "About" section or page with studio history.
+- Optimize images and add lazy loading for better performance.
+- Consider adding analytics (e.g., Google Analytics) for visitor tracking.
+
+## Changelog
+
+- **Latest (April 2026):** Polished socials page button alignment, centered action buttons across pages, refined homepage layout.
+- **Initial Build:** Created responsive portfolio site with navigation, gallery, contact directory, and social links.
+
+## License
+
+This project is open-source under the MIT License. Feel free to use and modify for your own portfolio needs.
+
+## Maintenance Tips
+
+- Test on multiple devices/browsers after changes.
+- Update meta descriptions in HTML head for better SEO.
+- Backup images before replacing them.
+- If deploying to GitHub Pages, ensure repository is public and enable Pages in settings.
+
