@@ -18,6 +18,7 @@ This repository contains a small portfolio website for Northline Studio, built w
 - Replace placeholder project gallery images with real artwork in `projects.html`.
 - Update department and team email addresses as needed in `contact.html`.
 - A top navigation bar is included on every page so visitors can easily reach Home, Projects, Socials, and Contact.
+- The homepage now features a hero-style featured project placeholder with a primary project CTA and a secondary Contact Us button.
 - The Instagram link in `socials.html` points to the studio's Instagram profile.
 
 ## Local Testing
