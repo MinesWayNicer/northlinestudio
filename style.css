@@ -1,53 +1,88 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #eef2ef;
     margin: 0;
-    padding: 20px;
+    padding: 0;
     text-align: center;
 }
+
+/* HEADER */
+.header {
+    position: relative;
+    background: white;
+}
+
+/* Banner */
 .banner {
-    width:100%;
+    width: 100%;
     height: auto;
     display: block;
 }
+
+/* Square logo (top-left overlay) */
 .icon-logo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top: 10px;
-    left: 10px;    display: block;
-    margin: 20px auto;
+    top: 15px;
+    left: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    background: white;
+    padding: 5px;
 }
+
+/* Title */
 h1 {
-    background-color: white;
+    margin: 20px 0 5px;
     color: seagreen;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    font-size: 2.2rem;
 }
+
+/* Subtitle */
+.subtitle {
+    margin: 0 0 20px;
+    color: #666;
+}
+
+/* MAIN CARD */
 main {
+    max-width: 900px;
+    margin: 30px auto;
     background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
 }
+
+/* SECTIONS */
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
+
 h2 {
     color: seagreen;
+    margin-bottom: 10px;
 }
+
+/* LINKS */
 a {
     color: seagreen;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
-}   
+}
+
+/* FOOTER */
 footer {
-    margin-top: 20px;
+    margin-top: 40px;
+    padding: 20px;
     font-size: 0.9em;
     color: #777;
+}
+.icon-logo:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
 }
