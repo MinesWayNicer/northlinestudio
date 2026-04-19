@@ -36,7 +36,7 @@ body {
 /* Title */
 h1 {
     margin: 20px 0 5px;
-    color: seagreen;
+    color: #90978A;
     font-size: 2.2rem;
 }
 
@@ -122,8 +122,8 @@ section {
 
 .nav-button.secondary {
     background-color: #ffffff;
-    color: seagreen;
-    border: 2px solid seagreen;
+    color: #90978A;
+    border: 2px solid #90978A;
 }
 
 .nav-button.secondary:hover {
@@ -137,7 +137,7 @@ h2 {
 
 /* LINKS */
 a {
-    color: seagreen;
+    color: #90978A;
     text-decoration: none;
 }
 
@@ -162,7 +162,7 @@ footer {
 }
 
 .footer-nav a {
-    color: seagreen;
+    color: #90978A;
     text-decoration: none;
     font-weight: bold;
 }
@@ -179,7 +179,7 @@ footer {
     display: inline-block;
     margin: 10px;
     padding: 12px 20px;
-    background-color: seagreen;
+    background-color: #90978A;
     color: white;
     border-radius: 8px;
     text-decoration: none;
@@ -188,7 +188,7 @@ footer {
 }
 
 .nav-button:hover {
-    background-color: #246b45;
+    background-color: #6B715F;
     transform: translateY(-2px);
 }
 
@@ -232,7 +232,7 @@ footer {
 }
 
 .department h3, .team-member h3 {
-    color: seagreen;
+    color: #90978A;
     margin-top: 0;
 }
 
@@ -241,7 +241,7 @@ footer {
     font-style: normal;
 }
 .navbar {
-    background-color: seagreen;
+    background-color: #90978A;
     padding: 15px;
     text-align: center;
     position: sticky;
