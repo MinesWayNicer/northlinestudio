@@ -83,6 +83,25 @@ footer {
     font-size: 0.9em;
     color: #777;
 }
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+
+.footer-nav a {
+    color: seagreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
 .icon-logo:hover {
     transform: scale(1.1);
     transition: 0.2s;
