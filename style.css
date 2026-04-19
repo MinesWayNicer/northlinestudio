@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    background-color: white;
+    color: seagreen;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+main {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    color: seagreen;
+}
+a {
+    color: seagreen;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}   
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
