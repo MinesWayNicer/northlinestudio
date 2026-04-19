@@ -1,10 +1,5 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #eef2ef;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    line-height: 1.6;
+html {
+    scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -298,6 +293,33 @@ footer {
     .department, .team-member {
         padding: 15px;
     }
+    .newsletter-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .newsletter-form input {
+        margin-bottom: 10px;
+    }
+}
+
+/* Newsletter */
+.newsletter-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    max-width: 400px;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.newsletter-form button {
+    margin: 0;
 }
 .navbar {
     background-color: #90978A;
