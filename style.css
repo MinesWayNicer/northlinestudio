@@ -1,9 +1,10 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #eef2ef;
     margin: 0;
     padding: 0;
     text-align: center;
+    line-height: 1.6;
 }
 
 /* HEADER */
@@ -55,6 +56,11 @@ main {
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    transition: box-shadow 0.3s ease;
+}
+
+main:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
 /* SECTIONS */
@@ -188,9 +194,9 @@ footer {
     transition: 0.2s;
 }
 
-.nav-button:hover {
-    background-color: #6B715F;
-    transform: translateY(-2px);
+.nav-button:focus {
+    outline: 2px solid #7A806F;
+    outline-offset: 2px;
 }
 
 /* GALLERY */
@@ -247,6 +253,48 @@ footer {
     margin: 0 auto 20px;
     max-width: 150px;
     height: auto;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px;
+    }
+    .navbar a {
+        display: block;
+        margin: 5px 0;
+        font-size: 1rem;
+    }
+    main {
+        margin: 20px 10px;
+        padding: 20px;
+    }
+    .hero {
+        padding: 15px;
+        gap: 15px;
+    }
+    .hero h2 {
+        font-size: 1.8rem;
+    }
+    .hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .nav-button {
+        margin: 5px 0;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .footer-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .gallery {
+        gap: 15px;
+    }
+    .department, .team-member {
+        padding: 15px;
+    }
 }
 .navbar {
     background-color: #90978A;
